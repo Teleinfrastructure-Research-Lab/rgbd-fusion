@@ -1,0 +1,28 @@
+[project]
+name = "pcc-fusion"
+version = "0.1.0"
+authors = [
+    { name="Ivaylo Bozhilov", email="ibojilov@tu-sofia.bg" }
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "tqdm",
+    "opencv-python",
+    "ultralytics",
+    "scipy",
+    "scikit-image",
+    "scikit-learn",
+    "Pillow"
+]
+
+[tool.setuptools.packages.find]
+include = ["Holotwin", "utils", "methods"]
+
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

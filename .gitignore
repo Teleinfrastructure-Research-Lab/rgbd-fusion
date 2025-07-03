@@ -1,0 +1,8 @@
+data
+yolov8n-seg.engine
+*.pyc
+__pycache__
+pcc_fusion.egg-info
+.vscode
+output_data
+*.csv
