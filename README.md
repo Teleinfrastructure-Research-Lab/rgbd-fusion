@@ -35,3 +35,21 @@ To enable semantic-aware segmentation using YOLO, you need to download pre-train
 Place the downloaded weights (e.g., `yolov8n-seg.engine`, `yolov8n-seg.pt`, etc.) in an appropriate directory, or modify the code to load them from your chosen path.
 
 ---
+
+# Citation
+
+```
+@INPROCEEDINGS{bozhilov2025exploring,
+  author={Bozhilov, Ivaylo B. and Petkova, Radostina R. and Tonchev, Krasimir T. and Manolova, Agata H.},
+  booktitle={2025 60th International Scientific Conference on Information, Communication and Energy Systems and Technologies (ICEST)}, 
+  title={Exploring Semantic-Aware Compression of RGBD Images Using Conventional Codecs}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract={RGBD data from 3D capture devices includes synchronized color and depth images, forming a four-channel format that traditional codecs (e.g., JPEG2000, H.264) are not designed to compress. Challenges include a lack of support for four-channel data, incompatibility with high bit-depth depth images, and synchronization overhead when transmitting separate streams. This paper investigates depth image colorization to make RGBD data compatible with standard codecs. We compare multiple colorization methods and propose two fusion strategies—simple spatial concatenation and PCA-based fusion—to combine RGB and depth data into a single image. Furthermore, we introduce a semantic-aware compression approach that leverages person segmentation from the Kinect to guide the encoding process. Our results show that incorporating semantic information significantly improves compression efficiency and rate-distortion performance.},
+  keywords={Image segmentation;Image coding;Codecs;Three-dimensional displays;Semantics;Rate-distortion;Transform coding;Synchronization;Standards;Principal component analysis;RGBD;Compression;Semantic},
+  doi={10.1109/ICEST66328.2025.11098421},
+  ISSN={2603-3267},
+  month={June},}
+```
